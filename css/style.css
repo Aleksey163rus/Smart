@@ -1,7 +1,7 @@
 header {
     width: 1280px;
     margin: auto;
-
+    text-align:  center;
 }
 body {
     font-size: 14px;                /*размер шрифта*/
@@ -28,11 +28,8 @@ span{
     padding-left: 30%;
 
 }
-p {
-    font-size: 100%;
-    text-align:  center;
-}
-h1 {
+
+.content {
     font-size: 300%;
     text-align:  center;
 }
@@ -44,9 +41,9 @@ fieldset {
     border: none;
     text-align:  center;
     background-color: white;
-    box-shadow: 0px 0px 50px silver;
+    box-shadow: 0 0 50px silver;
     white-space: pre-wrap;
-    margin: 100px 100px 0px 100px;
+    margin: 100px 100px 0 100px;
 
 }
 input {
@@ -66,20 +63,62 @@ input {
     width: 1280px;
     margin: auto;
     padding-top: 50px;
-
+    text-align:  center;
 }
 main {
-    background-color: white;
+    background-color: white;            /* цвет фона*/
+}
+table {
+    padding: 40px 30px 20px 30px;       /* отступы от краев таблицы*/
+    margin: auto;                       /* расположение таблицы*/
+    border-spacing: 30px;               /* расстояние между ячейками*/
+    text-align:  center;
+}
+.icon-blue {
+    color: #c1e4fc;
+}
+.icon-purple {
+    color: #efd1fd;
+}
+.icon-darkblue {
+    color: #d3d2ff;
+}
+.icon-red {
+    color: #fdd1db;
+}
+.working-icon {
+    font-size: 150%;
+    color: #eef7fe;
 }
 .blue{
-    background: #00b9ff;
+    background: #5fabe1;
+}
+.fa-magnet {
+    font-size: 50px;
+    color: #dcf0fd;
 }
 .purple{
-    background: #a700ff;
+    background: #c049f8;
+}
+.fa-bug {
+    font-size: 50px;
+    color: #f2dbfe;
 }
 .darkblue{
-    background: #624cff;
+    background: #817eff;
+}
+.fa-cogs {
+    font-size: 50px;
+    color: #e6e5ff;
 }
 .red{
-    background: #ff3664;
+    background: #f74770;
+}
+.fa-camera-retro {
+    font-size: 50px;
+    color: #fddae2;
+}
+.blue, .purple, .darkblue, .red{
+    width: 250px;                       /* ширина ячеек*/
+    height: 250px;                      /* высота ячеек*/
 }
