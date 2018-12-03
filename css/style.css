@@ -122,3 +122,14 @@ table {
     width: 250px;                       /* ширина ячеек*/
     height: 250px;                      /* высота ячеек*/
 }
+.Know_icon_table{
+    padding: 0 30px 0 30px;       /* отступы от краев таблицы*/
+    margin: ;                       /* расположение таблицы*/
+    border-spacing: 50px;               /* расстояние между ячейками*/
+    text-align:  center;
+    background: red;
+    border-radius: 100px;
+}
+.Know_icon {
+    border-radius: 100px;
+}
